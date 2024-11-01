@@ -1,0 +1,196 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Indeedle
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/twitpost\n"
+"POT-Creation-Date: 2009-05-07 01:56+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. #-#-#-#-#  plugin.pot (PACKAGE VERSION)  #-#-#-#-#
+#. Plugin Name of an extension
+#: twitpost.php:43 twitpost.php:269
+msgid "Twitpost"
+msgstr ""
+
+#: twitpost.php:124
+msgid "USER"
+msgstr ""
+
+#: twitpost.php:124
+msgid "TITLE"
+msgstr ""
+
+#: twitpost.php:124
+msgid "URL"
+msgstr ""
+
+#: twitpost.php:124
+msgid "SITE"
+msgstr ""
+
+#: twitpost.php:124
+msgid "NAME"
+msgstr ""
+
+#: twitpost.php:151
+msgid "New blog post: TITLE at URL"
+msgstr ""
+
+#: twitpost.php:236
+msgid "USER has blogged about \"TITLE\" at URL"
+msgstr ""
+
+#: twitpost.php:259
+msgid ""
+"Couldn't authenticate you with Twitter. Please check that your username "
+"&amp; passsword are both correct."
+msgstr ""
+
+#: twitpost.php:265
+msgid ""
+"Can no longer connect to Twitter, did you change your password? Please "
+"update your login details."
+msgstr ""
+
+#: twitpost.php:270
+msgid ""
+"Twitpost will add a short note to your Twitter feed when you add a new post. "
+"This can be called automatically, or it can be called manually."
+msgstr ""
+
+#: twitpost.php:272
+msgid "Authentication"
+msgstr ""
+
+#: twitpost.php:273
+msgid "This is needed to update your twitter feed."
+msgstr ""
+
+#: twitpost.php:274
+msgid "Great! Authenticated with twitter :)"
+msgstr ""
+
+#: twitpost.php:279
+msgid "Twitter Username"
+msgstr ""
+
+#: twitpost.php:281
+msgid "Your twitter username."
+msgstr ""
+
+#: twitpost.php:283
+msgid "Twitter Password:"
+msgstr ""
+
+#: twitpost.php:285
+msgid "Your twitter password."
+msgstr ""
+
+#: twitpost.php:292
+msgid "Update Login"
+msgstr ""
+
+#: twitpost.php:298
+msgid "Settings"
+msgstr ""
+
+#: twitpost.php:299
+msgid ""
+"If you set the method to automatic, Twitpost will add the message to your "
+"twitter feed for every post you make, unless you specifically exclude the "
+"post."
+msgstr ""
+
+#: twitpost.php:300
+#, php-format
+msgid ""
+"With manual Twitpost will only add the message to your twitter feed if you "
+"specifically tell it to.</p>\n"
+"<p>Add a custom field to your post titled %1$s. A value of %3$s when method "
+"is manual means the post will be sent to twitter, while a value of %2$s when "
+"the method is automatic means the post you've written will not be sent to "
+"twitter."
+msgstr ""
+
+#: twitpost.php:302
+#, php-format
+msgid ""
+"Once the written post has been published, %1$s will be changed to %2$s which "
+"means if edited in the future it will not be sent to twitter. If you want to "
+"notify twitter of it being updated, just replace %2$s with %3$s when editing "
+"the post, and twitter will be notified again."
+msgstr ""
+
+#: twitpost.php:307
+msgid "Method"
+msgstr ""
+
+#: twitpost.php:309
+msgid "Automatic (Upon publish)"
+msgstr ""
+
+#: twitpost.php:310
+msgid "Manual (Post by post)"
+msgstr ""
+
+#: twitpost.php:315
+msgid "Message"
+msgstr ""
+
+#: twitpost.php:317
+msgid ""
+"This is the message that will be posted on twitter. <code>USER</code>, "
+"<code>TITLE</code>, <code>URL</code>, <code>SITE</code> and <code>NAME</code>"
+ will be replaced with your name, post title, post link, blog link and "
+"blog title respectivly."
+msgstr ""
+
+#: twitpost.php:320
+msgid "Shrink URL"
+msgstr ""
+
+#: twitpost.php:322
+msgid "Do not shrink"
+msgstr ""
+
+#: twitpost.php:323
+msgid "TinyURL"
+msgstr ""
+
+#: twitpost.php:325
+msgid ""
+"Shrink the blog URL with one of these services, so the tweet doesn't appear "
+"too long. Generally the URL is the longest part of the tweet."
+msgstr ""
+
+#: twitpost.php:330
+msgid "Save Settings"
+msgstr ""
+
+#. Plugin URI of an extension
+msgid "http://indeedle.com/projects/twitpost/"
+msgstr ""
+
+#. Description of an extension
+msgid ""
+"A plugin that notifies your twitter feed when you've made a new post in your "
+"blog."
+msgstr ""
+
+#. Author of an extension
+msgid "Indeedle"
+msgstr ""
+
+#. Author URI of an extension
+msgid "http://indeedle.com/"
+msgstr ""
